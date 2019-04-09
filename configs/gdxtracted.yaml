@@ -1,0 +1,62 @@
+NAME: gdxtracted
+ROOT: /home/hale/TrimBot/projects/341n143/data/gdxtracted
+flow:
+  gt-test: flow.test
+  gt-train: flow.train
+  n: 2
+  pr-test: flownetc.test
+  pr-train: flownetc.train
+norm:
+  gt-test: fnormals.test
+  gt-train: fnormals.train
+  n: 3
+  pr-test: pred_normals.test
+  pr-train: pred_normals.train
+rgb:
+  gt-test: rgb.test
+  gt-train: rgb.train
+  n: 3
+seg:
+  gt-test: anno.test
+  gt-train: anno.train
+  gt-train-weights:
+  - 13.458248481104345
+  - 0.37160682447982213
+  - 1.2601621485385373
+  - 0.9810642577579245
+  - 0.8416560270218011
+  - 1.3150356382848984
+  - 0.31740667910627074
+  - 1.0196810945073411
+  - 4.054181778703546
+  - 0.40606293356574436
+  - 0.9014206925554916
+  - 0.5942775099909606
+  - 1.5780728242069566
+  - 1.0584020580557958
+  - 0.12508470520944018
+  ignore_label: 0
+  mapping:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 7
+  - 8
+  - 11
+  - 20
+  - 30
+  - 102
+  - 103
+  - 104
+  - 105
+  - 106
+  - 223
+  - 0
+  n: 15
+  pr-test: segnet_score.test
+  pr-train: segnet_score.train
+depth:
+  gt-test: depth.test
+  gt-train: depth.train
+  n: 1

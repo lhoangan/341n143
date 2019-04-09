@@ -1,0 +1,25 @@
+PROJECT:
+    ROOT: /home/hale/TrimBot/projects/341n143/
+    TOOLS: tools/
+    CACHE: runs/
+    CONFIG: configs/
+CAFFE: /home/hale/caffe/segflow-caffe/python
+OUTPUT_DIRS:
+    MODEL: /home/hale/TrimBot/projects/341n143/models
+    OUTPUT: /home/hale/TrimBot/projects/341n143/output
+NAMES:
+    TRAIN: train.pt
+    TEST: test.pt
+    SOLVER: solver.pt
+    CONFIG: config.yaml
+    SH: train.sh
+    MODEL: models
+    OUTPUT: output
+    LOG: log_
+    VIS:
+        PLOT: vis_plot_
+        SAMPLE: vis_sample_
+        INPUT: inp_ 
+        PRED: prd_
+        GT:  gtr_
+

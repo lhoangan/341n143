@@ -1,0 +1,7 @@
+INPUT:
+  DATASET: vkitti.yaml
+  LAYOUT:
+  - prflow
+  - prseg
+REFINE:
+  TARGETS: flow

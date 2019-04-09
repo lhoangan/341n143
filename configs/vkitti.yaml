@@ -1,0 +1,43 @@
+NAME: vkitti
+ROOT: /home/hale/TrimBot/projects/341n143/data/vkitti
+flow:
+  gt-test: flow.test
+  gt-train: flow.train
+  n: 2
+  pr-test: flownetc.test
+  pr-train: flownetc.train
+norm:
+  gt-test: normal.test
+  gt-train: normal.train
+  n: 3
+  pr-test: pred_normal.test
+  pr-train: pred_normal.train
+rgb:
+  gt-test: rgb.test
+  gt-train: rgb.train
+  n: 3
+seg:
+  gt-test: anno.test
+  gt-train: anno.train
+  gt-train-weights:
+  - 0.46172218763119127
+  - 0.657963212058263
+  - 8.794484958155778
+  - 0.3098030657733113
+  - 0.40208885919449305
+  - 0.3314626830752233
+  - 3.970271562272538
+  - 1.8529543766300685
+  - 0.7193372111328039
+  - 2.382496904930205
+  - 0.8975015294745373
+  - 1.1289283976604527
+  - 2.979375340257502
+  ignore_label: 13
+  n: 13
+  pr-test: resnet_score.test
+  pr-train: resnet_score.train
+depth:
+  gt-test: depth.test
+  gt-train: depth.train
+  n: 1

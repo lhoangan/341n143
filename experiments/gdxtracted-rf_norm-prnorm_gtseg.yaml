@@ -1,0 +1,6 @@
+INPUT:
+  DATASET: gdxtracted.yaml
+  LAYOUT:
+  - prnorm, gtseg
+REFINE:
+  TARGETS: norm
