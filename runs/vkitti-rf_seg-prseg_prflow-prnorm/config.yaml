@@ -1,0 +1,7 @@
+INPUT:
+  DATASET: vkitti.yaml
+  LAYOUT:
+  - prseg, prflow
+  - prnorm
+REFINE:
+  TARGETS: seg

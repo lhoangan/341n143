@@ -1,0 +1,6 @@
+INPUT:
+  DATASET: vkitti.yaml
+  LAYOUT:
+  - prnorm, prseg
+REFINE:
+  TARGETS: norm

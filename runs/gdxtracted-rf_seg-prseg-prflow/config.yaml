@@ -1,0 +1,7 @@
+INPUT:
+  DATASET: gdxtracted.yaml
+  LAYOUT:
+  - prseg
+  - prflow
+REFINE:
+  TARGETS: seg

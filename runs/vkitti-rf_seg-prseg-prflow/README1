@@ -1,0 +1,22 @@
+
+
+---------
+### Testing network
+- *date* : 06-08-2018 | *time* : 17:29:56
+- *experiment* : tools
+- *palette* : None
+- *weight* : /home/hale/TrimBot/projects/341n143/models/vkitti-rf_seg-prseg-prflow/vkitti-rf_seg-prseg-prflow_iter_200000.caffemodel
+- *proto* : /home/hale/TrimBot/projects/341n143/runs/vkitti-rf_seg-prseg-prflow/test.pt
+- *config* : ../configs/general.yaml
+- *perimg* : /home/hale/TrimBot/projects/341n143/runs/vkitti-rf_seg-prseg-prflow/perimg1
+- *exp* : ../experiments/vkitti-rf_seg-prseg-prflow.yaml
+- *report* : /home/hale/TrimBot/projects/341n143/runs/vkitti-rf_seg-prseg-prflow/README1
+- *gpu* : 0
+- *out_blobs* : ['out-seg']
+- *outdir* : /home/hale/TrimBot/projects/341n143/output/vkitti-rf_seg-prseg-prflowglobal | class | miou
+------ | ----- | ----
+0.8177 | 0.4551 | 0.3601
+
+- *Confusion matrix* : False Negative | False Positive
+
+![conf_mat_fn](confmat_fn.png) | ![conf_mat_fp](confmat_fp.png)

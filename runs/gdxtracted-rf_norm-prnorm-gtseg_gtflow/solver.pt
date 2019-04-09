@@ -1,0 +1,12 @@
+train_net: "/home/hale/TrimBot/projects/341n143/runs/gdxtracted-rf_norm-prnorm-gtseg_gtflow/train.pt"
+base_lr: 0.0001
+display: 100
+max_iter: 200000
+lr_policy: "step"
+gamma: 0.5
+momentum: 0.9
+weight_decay: 0.0005
+stepsize: 50000
+snapshot: 50000
+snapshot_prefix: "/home/hale/TrimBot/projects/341n143/models/gdxtracted-rf_norm-prnorm-gtseg_gtflow/gdxtracted-rf_norm-prnorm-gtseg_gtflow"
+solver_mode: GPU
