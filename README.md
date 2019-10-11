@@ -18,6 +18,13 @@ Parts of the Virtual KITTI dataset are included in this repository for your conv
 If used, please cite the corresponding paper following the instructions at
 [NAVER LABS EUROPE](http://www.europe.naverlabs.com/Research/Computer-Vision/Proxy-Virtual-Worlds)
 
+Ground truth surface normals are converted from the provided depth images using
+the method given by [Barron and Malik, Shape, Illumination, and Reflectance from
+Shading](https://drive.google.com/file/d/1vg9Rb-kBntSTnTCzVgFlskkPXvTB_5aq/view).
+The source code is available in the [project page](https://jonbarron.info/) or 
+[here](). Please cite the according paper if you use the codes in your research.
+
+
 - Virtual KITTI
   - Optical flow:
     [ground truth (7 GB)](http://isis-data.science.uva.nl/hale/341n143/vkitti/flo_gt.zip),
